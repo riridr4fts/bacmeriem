@@ -56,3 +56,90 @@ h1 {
     font-weight: bold;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
+.box {
+    background-color: #f0f8ff; /* couleur de fond douce */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.6;
+/* Style de base pour le site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* couleur de fond de la page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* couleur de fond pour l'entête */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section de contenu */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 2em;
+}
+
+section p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
